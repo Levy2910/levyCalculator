@@ -20,4 +20,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Show calculator history 
 
-Click button M
+Click button history
