@@ -64,42 +64,42 @@ function App() {
   };
 
   let operators = [
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
-    "x",
+    "{",
+    "}",
+    "mc",
+    "m+",
+    "m-",
+    "mr",
+    "2nd",
+    "x2",
+    "x3",
+    "x4",
+    "ex",
+    "10x",
+    "1/x",
+    <i class="fa-solid fa-plus"></i>,
+    <i class="fa-solid fa-infinity"></i>,
+    <i class="fa-solid fa-less-than-equal"></i>,
+    "ln",
+    "log10",
+    "x!",
+    "sin",
+    "cos",
+    "tan",
+    "e",
+    "EE",
+    "Rad",
+    "sinh",
+    "cosh",
+    "tanh",
+    "pi",
+    "Rand",
   ];
 
   return (
     <div className="App">
       <button className="memory" onClick={() => toggle()}>
-        M
+        History
       </button>
       <div className={memory ? "memory-show" : "memory-hide"}>
         {histories?.map((item) => <li key={item}>{item}</li>) || (
